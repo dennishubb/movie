@@ -1,5 +1,3 @@
-import '../Styles/carparkView.css';
-import './Movie/Filter/MovieFilter';
 import MovieFilter from './Movie/Filter/MovieFilter';
 import MovieList from './Movie/List/MovieList';
 import MovieSort from './Movie/Sort/MovieSort';
