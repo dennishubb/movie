@@ -1,0 +1,24 @@
+#movieListGroup{
+    position: absolute;
+    padding-right: 10px;
+    top: -5px;
+    left: 310px;
+}
+
+img{
+    float: left;
+}
+
+.movieListButton{
+    cursor: pointer;
+    background: transparent;
+    border: none !important;
+}
+
+@media only screen and (max-width: 960px) {
+    #movieListGroup{
+      top: 370px;
+      left: 0px;
+      padding-right: 0px;
+    }
+  }

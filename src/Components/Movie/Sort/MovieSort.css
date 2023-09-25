@@ -1,0 +1,14 @@
+#movieSortGroup{
+    position: fixed;
+    top: 420px;
+    left: 15px;
+    width: 280px;
+}
+
+@media only screen and (max-width: 960px) {
+    #movieSortGroup{
+      all:unset;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
